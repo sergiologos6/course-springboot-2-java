@@ -1,5 +1,7 @@
 git init
 
+git checkout -b main
+
 git config --global user.name "Sergio Virginio"
 
 git config --global user.email "sergiologos6@gmail.com"
@@ -8,6 +10,6 @@ git add .
 
 git commit -m "Project created"
 
-git remote add origin https://github.com/sergiologos6/course-springboot-2-java.git
+git remote add origin https://github.com/sergiologos6/course-springboot-2-java.git // Criar primeiro o projeto no github.
 
-git push -u origin main
+git push -u origin main  //Ao iniciar um projeto, depois só digitar o git push
